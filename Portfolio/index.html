@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="ico.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="designing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Portfolio | M Ahmad</title>
+</head>
+
+<body id="body">
+    <header id="top">
+        <div class="header">
+            <span id="port">Portfolio</span>
+            <ul class="menue">
+                <li><a class="li" href="#home">Home</a></li>
+                <li><a class="li" href="#about">About</a></li>
+                <li><a class="li" href="#services">Services</a></li>
+                <li><a class="li" href="#projects">Projects</a></li>
+                <li><a class="li" href="#contact">Contact</a></li>
+
+            </ul>
+            <div class="bar">
+                <i class="fa-solid fa-bars " id="3-bar"></i>
+            </div>
+
+        </div>
+    </header>
+    <div class="menue-bar" id="main-menue">
+        <ul class="menue-ul">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </div>
+    <div id="bulb">
+        <i class="fa-solid fa-lightbulb fa-beat bulb" id="btn"></i>
+    </div>
+    <section id="home">
+        <div class="hero">
+            <div class="img-div">
+                <img src="ahmad.jpeg" alt="My Image">
+            </div>
+            <div class="name-div">
+                <div class="div1">
+                    <span class="hi">Hi</span>
+                    <span class="am">,I am</span>
+                    <span class="name">M Ahmad</span>
+                </div>
+                <div class="develop">
+                    <span class="develop-text">Web Developer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-main">
+            <div class="about-head">
+                <h1>About</h1>
+            </div>
+            <div class="about-cont">
+                <p>I am a talented, innovative, and dedicated developer with exceptional attention to detail. My
+                    problem-solving skills, passion, and adaptability make me a reliable team player and quick learner.
+                    I'm an ethical, results-driven developer who mentors others, contributing positively to the tech
+                    community.</p>
+            </div>
+            <div class="btn-div">
+                <a download href="M Ahmad (Resume).pdf" class="cv-btn">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="services-main">
+            <div class="service-head">
+                <h1>Services</h1>
+            </div>
+            <div class="serv">
+                <div class="service-div">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h1>Web Development</h1>
+                    <p>
+                        I plan to use PHP and Laravel framework for web development, specifically to create APIs,
+                        enhancing data interaction and functionality.
+                    </p>
+                </div>
+                <div class="service-div">
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Designing</h1>
+                    <p>
+
+                        I plan to utilize HTML, CSS, and JavaScript to craft visually appealing and interactive web
+                        designs for a dynamic user experience.
+                    </p>
+                </div>
+                <div class="service-div">
+                    <i class="fa-solid fa-database"></i>
+                    <h1>Database</h1>
+                    <p>
+                        Creating a database with SQL involves defining tables, fields, and relationships for storing,
+                        retrieving, and managing structured data efficiently.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="services-main">
+            <div class="service-head pro-head">
+                <h1>Projects</h1>
+            </div>
+            <div class="serv">
+                <div class="project-div">
+                    <a href="">
+                        <img src="hostel.PNG" alt="Hostel Management">
+                    </a>
+                    <div class="link-div">
+                        <spna class="pname">Hostel Management  (PHP)</spna>
+                    </div>
+                </div>
+                <div class="project-div">
+                    <a href="#">
+                        <img src="touchwon.PNG" alt="Touch-Won">
+                    </a>
+                    <div class="link-div">
+                        <spna class="pname">Touch-Won (Laravel)</spna>
+                    </div>
+                </div>
+                <div class="project-div">
+                    <a href="#">
+                        <img src="0.jpg" alt="project-name">
+                    </a>
+                    <div class="link-div">
+                        <spna class="pname">Still Working</spna>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-main">
+            <div class="contact-head">
+                <h1>Contacts</h1>
+            </div>
+            <div class="contact-div">
+                <div class="media-div">
+                    <a href="https://wa.me/03077838473">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:iahmad8473@gmail.com">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+
+                </div>
+
+                <div class="comment-div">
+                    <form action="" method="post" onsubmit="return formsubmit()">
+                        <input class="input" id="name" type="text" name="name" placeholder="Name">
+                        <input class="input" id="email" type="email" name="email" placeholder="E-Mail">
+                        <input class="input" id="phone" type="text" name="phone" placeholder="Phone Number">
+                        <textarea class="input" id="message" name="message" placeholder="Message" id="message" cols="10"
+                            rows="5"></textarea>
+                        <div class="submit-div">
+                            <button type="submit" id="submit" class="sub-btn">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="bulb">
+        <a href="#body"> <i class="fa-solid fa-angles-up bulb"></i></a>
+    </div>
+    <footer>
+        <div class="footer-div">
+            <span>Developed By &copy;M Ahmad</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

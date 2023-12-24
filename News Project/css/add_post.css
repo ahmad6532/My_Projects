@@ -1,0 +1,96 @@
+.add-post-outer {
+  display: flex;
+  justify-content: center;
+  background-color: #e3e3e3;
+  height: 100vh;
+}
+
+.login_div {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 38px;
+  height: fit-content;
+}
+
+.inner_div {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 26px;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+#description {
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+#category {
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-top: 8px;
+}
+#image {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  margin-top: 8px;
+}
+
+label {
+  color: black;
+  font-weight: 700;
+}
+
+span {
+  font-size: 14px;
+  margin-bottom: 6px;
+  visibility: hidden;
+  color: red;
+  font-weight: 800;
+}
+
+#add_post {
+  height: 32px;
+  width: 30%;
+  font-size: 15px;
+  margin: auto;
+  background-color: green;
+  font-weight: 700;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#add_post:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px;
+}
+.add-post-wrong{
+  color: red;
+  font-weight: 900;
+  text-align: center;
+  font-size: 25px;
+  padding: 50px 20px;
+}

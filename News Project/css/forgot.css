@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("/assets/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+.forgot_div {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.inner_div {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 26px;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+label {
+  color: black;
+  font-weight: 700;
+}
+
+span {
+  font-size: 14px;
+  margin-bottom: 6px;
+  visibility: hidden;
+  color: red;
+  font-weight: 800;
+}
+
+#submit {
+  height: 32px;
+  width: 30%;
+  font-size: 15px;
+  margin: auto;
+  background-color: green;
+  font-weight: 700;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 4px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+a {
+  color: #06a6d6;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+}
+
+.link_div {
+  text-align: right;
+  margin: 15px;
+}
