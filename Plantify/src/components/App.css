@@ -1,0 +1,82 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.gptclass{
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+  padding-top: 2px;
+ 
+  
+}
+
+.gptheading{
+   display: flex; 
+   flex-direction: row;
+   padding-left: 16%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   /* align-items: center !important; */
+   background-color: rgb(202, 235, 240);
+   border-radius: 15px;
+ 
+}
+.gptimg{
+  height: 80px;
+  width: 80px;
+}
+.hg{
+padding-top: 13px;
+padding-left: 9px;
+color: black;
+text-shadow: 0 0 3px #abe49a, 0 0 5px rgb(122, 197, 160);
+}
+.backgpt{
+width: 50%;
+margin-left: 25%;
+padding-top: 10px;
+padding-bottom: 6px;
+}
+.gptinput{
+  background-color: #03c058 !important;
+}
+

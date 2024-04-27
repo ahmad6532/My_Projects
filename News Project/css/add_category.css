@@ -1,0 +1,72 @@
+.add-post-outer {
+  display: flex;
+  justify-content: center;
+  background-color: #e3e3e3;
+  height: 100vh;
+}
+
+.login_div {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 38px;
+  height: fit-content;
+}
+
+.inner_div {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 26px;
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+
+
+label {
+  color: black;
+  font-weight: 700;
+}
+
+span {
+  font-size: 14px;
+  margin-bottom: 6px;
+  visibility: hidden;
+  color: red;
+  font-weight: 800;
+}
+
+#add_category {
+  height: 32px;
+  width: 30%;
+  font-size: 15px;
+  margin: auto;
+  background-color: green;
+  font-weight: 700;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#add_category:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px;
+}
