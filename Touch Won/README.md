@@ -105,7 +105,7 @@ resources/views/
 ### Installation Steps
 
 ```bash
-git clone https://github.com/yourusername/touchwon.git
+git clone https://github.com/ahmad6532/My_Projects/tree/main/Touch%20Won
 cd touchwon
 
 composer install
