@@ -96,7 +96,7 @@ To provide an all-in-one solution for:
 
 ```bash
 # Clone the project
-git clone https://github.com/yourusername/fast-travel-solutions.git
+git clone https://github.com/ahmad6532/My_Projects/tree/main/Fast%20Travel%20Solutions
 cd fast-travel-solutions
 
 # Install backend dependencies
