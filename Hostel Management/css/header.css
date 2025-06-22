@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    width: 100%;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(8, 121, 121);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.inner-div {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.name-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.search-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#search {
+    width: 100%;
+    height: 30px;
+    padding-left: 35px;
+    font-size: 17px;
+
+}
+
+.fa-search {
+    margin-left: 7px;
+    color: black;
+    position: absolute;
+    float: inline-start;
+}
+
+.name-div-span {
+    margin: 3px 0px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.burger{
+    display: none;
+}
+#logout {
+    margin: 4px 0px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+#logout a{
+    color: rgb(208, 255, 0);
+    text-decoration: none;
+}
+
+@media (max-width:990px) {
+    .burger{
+        display: block;
+        font-size: 27px;
+    }
+    #well{
+        display: none;
+    }
+    #logout{
+        display: none;
+    }
+}
+@media (max-width:600px) {
+    .burger{
+        display: block;
+        font-size: 27px;
+    }
+    #well{
+        display: none;
+    }
+    #logout{
+        display: none;
+    }
+    
+.name-div {
+   font-size: 15px;
+}
+
+.search-div {
+    display: none;
+}
+}

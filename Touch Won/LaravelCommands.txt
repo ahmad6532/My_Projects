@@ -1,0 +1,21 @@
+1. First of all install composer on your system.
+
+2. For composer Updation
+     composer update
+	 
+3. create Laravel Project
+     composer create-project laravel/laravel project-name
+	 
+4. To run your project
+    php artisan serve	 
+	
+5. For database Migration
+    php artisan migrate
+	
+6. Make a controller
+   php artisan make:controller controller-name
+   
+7. Make a Model
+   php artisan make:Model Model-name
+   
+8. 

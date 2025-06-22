@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+    qitech:
+        platform: 'linux/amd64'
+        image: qitech
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        ports:
+            - '4180:4180'
+            - '5001:5001'

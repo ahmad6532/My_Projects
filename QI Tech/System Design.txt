@@ -1,0 +1,108 @@
+Getting System Entitites and their attributes==================
+
+
+========= We are going by starting with Location account ============
+LocationRegulatoryBody
+name,country,regulatory
+    UK (GPhC),UK,GPhC // Like these. there will be records.
+    Northern Ireland (PSNI)
+    Republic of Ireland (PSI)
+
+LocationType
+name
+    Community Pharmacy {can have a LocationPharmacyType}
+    Dispensing Doctor's Practice
+    Hospital Pharmacy
+    Private Pharmacy
+
+LocationPharmacyType
+name
+    Retail Pharmacy
+    Distance Selling Pharmacy
+    Private Pharmacy
+
+Location
+location_type_id,location_pharmacy_type_id,location_regulatory_body_id,registered_company_name,
+trading_name,registration_no,address_line1,address_line2,address_line3,town,county,country,postcode,
+telephone_no,email,password,email_verification_key,email_verified_at
+
+
+=============================================
+
+Position
+name
+    Accuracy Checking Technician (ACT)
+    Pharmacy Apprentice
+    Counter Assistant 
+    Dispenser
+    Driver
+    Pharmacist
+    Pre-registration Pharmacist
+    Pharmacy Technician
+    Pharmacy Assistant 
+
+Role
+name
+    None 
+    Branch Manager
+    Accuracy Checker 
+    Superintendent 
+    Locum
+    Relief 
+    Independent Prescriber
+
+
+
+
+User
+position_id,is_registered,registration_no,location_regulatory_body_id,country_of_practice,
+first_name,surname,mobile_no,email,password,password_updated_at,email_verification_key,email_verified_at
+
+UserRole
+user_id,role_id
+
+LocationQuickLogin
+user_id,location_id,pin,last_login_at
+
+
+
+
+=============================================
+HeadOfficeRequest
+first_name,surname,organization,position,email,telephone_no,email_verified_at,email_verification_key
+
+
+
+
+
+
+
+
+Admin
+first_name,surname,mobile_no,email,password,
+
+
+============================================
+
+LocationDetailUpdateRequest
+location_id,trading_name,address_line1,address_line2,address_line3,registration_no,telephone_no,status,user_id
+
+LocationPasswordUpdateRequest
+location_id,new_password,status,user_id
+
+
+LocationBrandUpdateRequest
+location_id,bg_color_code,logo_file,font,bg_file,status,token,user_id
+
+
+
+
+
+
+
+
+
+===================================
+To dos before closing:::
+Minify Files according to angularJS.
+

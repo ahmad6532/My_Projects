@@ -1,0 +1,629 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.menue {
+    width: 23%;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(5, 62, 62);
+    color: white;
+    overflow-y: hidden;
+
+}
+
+.menue-list {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    /* background-color: rebeccapurple; */
+}
+
+.menue-list:hover {
+    cursor: pointer;
+    background-color: rgb(255, 145, 0);
+}
+
+.icon {
+    font-size: 25px;
+    margin: 0px 5px;
+}
+
+.all-menue {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0px 5px;
+}
+
+.content {
+    width: 77%;
+    /* max-height:100vh; */
+    overflow-y: scroll;
+}
+
+/* Mobile Menue */
+.mobile_menue {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    visibility: hidden;
+    right: 0;
+
+}
+
+.mobile_inner {
+    background-color: rgb(229, 138, 9) !important;
+    width: 50%;
+    height: auto;
+    position: absolute;
+
+}
+
+.asf {
+    background-color: rgb(229, 138, 9) !important;
+    font-size: 28px !important;
+    margin-top: -20px;
+}
+
+.menue-items-span {
+
+    height: 65px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(5, 62, 62);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mob-log{
+    font-weight: 900;
+    color: red;
+    text-decoration: none;
+}
+
+.mobile_menue_radi {
+
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.mobile_menue_radi:hover {
+    background-color: rgb(255, 145, 0);
+    cursor: pointer;
+}
+
+#close {
+    left: 0;
+}
+
+#close i {
+    margin: 2px;
+    font-size: 20px;
+}
+
+#close i:hover {
+    cursor: pointer;
+}
+
+/* Dashboard */
+.dash-outer {
+    width: 100%;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dash-row {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.dashinner {
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-number {
+    background-color: rgb(233, 232, 232);
+    width: 110px;
+    height: 110px;
+    /* padding: 0px;    */
+    font-size: 35px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    box-shadow: 0px 0px 6px 4px gray;
+    border: 12px solid rgb(247, 246, 246);
+}
+
+.dash-text {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+
+/* add new student  */
+.add-student-main {
+    display: none;
+    width: 100%;
+
+}
+
+.heading-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-heading {
+    margin: 50px 0px 2px 0px;
+    font-weight: 900;
+    color: rgb(5, 62, 62);
+}
+
+.add-message {
+    color: white;
+    padding: 7px 22px 7px 22px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.add-success {
+    background-color: green;
+    display: none;
+}
+
+.add-fail {
+    background-color: rgb(213, 32, 32);
+    display: none;
+}
+
+
+.form-div {
+    width: 95%;
+    margin: auto;
+}
+
+.outer-div {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: space-between;
+
+}
+
+.in-div {
+    width: 49%;
+}
+
+.input-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-div label {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.add-input {
+    height: 30px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.sel {
+    height: 35px;
+}
+
+.mobi-div-address {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.h {
+    height: 60px;
+}
+
+.valid-span {
+    color: red;
+    font-weight: 800;
+    margin-top: 4px;
+    visibility: hidden;
+}
+
+.add-btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.add-student {
+    width: 38%;
+    margin: auto;
+    height: 47px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-weight: 700;
+    color: rgb(7, 7, 141);
+    font-size: 20px;
+    border: 1px solid green;
+}
+
+.add-student:hover {
+    cursor: pointer;
+}
+
+/* rooms */
+
+.room-main {
+    display: none;
+    margin-bottom: 40px;
+}
+
+.room-outer-div {
+    width: 97%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.room-div {
+    width: 33%;
+    box-shadow: 0px 0px 11px 3px gray;
+    border-radius: 11px;
+    margin: 50px 20px 0px 20px;
+
+}
+
+.room-no {
+    width: 98%;
+    margin: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-weight: 900;
+
+}
+
+.content-heading-div {
+    display: flex;
+    width: 77%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px;
+
+
+}
+
+/* Display student Data */
+
+.display-data {
+    width: 100%;
+    display: none;
+
+}
+
+.display-data table {
+
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+
+.display-data table th {
+    border-bottom: 1px solid rgba(2, 77, 56, 0.278);
+    background-color: orange;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(5, 5, 113);
+}
+
+.display-data table tr {
+    height: 45px;
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 1px solid rgba(2, 77, 56, 0.278);
+
+}
+
+.display-data tr:nth-child(even) {
+    background-color: #dcfafa;
+}
+
+#edit_student {
+    background-color: rgb(4, 107, 4);
+}
+
+#View_detail {
+    background-color: rgb(4, 101, 162);
+    text-wrap: nowrap;
+}
+
+#lev_student {
+    background-color: rgb(210, 0, 0);
+}
+
+.buttons {
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    color: white;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+/* student detail */
+.detail_main {
+    width: 100%;
+    display: none;
+
+}
+
+.detail_main table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 4px auto;
+}
+
+.detail-th {
+    text-align: center !important;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.detail_main th {
+    height: 47px;
+    width: 50%;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.detail_main td {
+    width: 50%;
+    text-align: start;
+    padding-left: 15px;
+
+
+}
+
+/* available seats */
+
+.available-seat {
+    width: 100%;
+    display: none;
+}
+
+.available-seat table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.available-seat th {
+    height: 50px;
+    font-size: 18px;
+    background-color: orange;
+
+}
+
+.available-seat tr {
+    height: 50px;
+    text-align: center;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(2, 82, 64, 0.407);
+}
+
+#add_new_student {
+    background-color: rgb(4, 93, 12);
+}
+
+
+/* For Tablet */
+@media (max-width:990px) {
+    .menue {
+        width: 16%;
+    }
+
+    .menue-list {
+        justify-content: center;
+    }
+
+    .all-menue {
+        display: none;
+    }
+
+    .content {
+        width: 84%;
+    }
+}
+
+/* extra query */
+@media (max-width:870px) {
+    .dash-text {
+        font-size: 15px;
+    }
+
+    .dash-number {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+
+    .room-div {
+        width: 40%;
+    }
+
+    .action_btn {
+        display: none;
+    }
+
+    #edit_btn_column {
+        display: none;
+    }
+
+    #edit_student {
+        display: none;
+    }
+
+    .available-seat th {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .available-seat tr {
+        height: 40px;
+        font-size: 16px;
+    }
+
+}
+
+/* for mobile */
+@media (max-width:660px) {
+    .menue {
+        display: none;
+
+    }
+
+    .content {
+        width: 100%;
+        /* max-height:; */
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .room-div {
+        width: 90%;
+        margin: 30px 0px 0px 0px;
+
+    }
+
+    #dash-div {
+        margin-top: 70px;
+        bottom: 10px;
+    }
+
+    .dash-outer {
+        flex-direction: column;
+
+    }
+
+    .dash-row {
+        width: 80%;
+        margin-top: 290px;
+
+    }
+
+    .dashinner {
+        margin: 1px;
+    }
+
+    .total_seat_cls {
+        display: none;
+    }
+
+    #lev_student {
+        display: none;
+    }
+
+    .std_view_cls {
+        display: none;
+    }
+
+    .detail_main table {
+        width: 91%;
+    }
+
+    .add-heading {
+        margin: 30px 0px 12px 0px;
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .add-message {
+        padding: 5px 18px 5px 18px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .outer-div {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .in-div {
+        width: 89%;
+    }
+
+    .input-div {
+        justify-content: center;
+
+    }
+
+    .add-student {
+        width: 65%;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .mobi-div-address {
+        width: 90%;
+        margin: auto;
+    }
+
+    .mobile_inner {
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-family: "M PLUS 1p", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.inn {
+  position: absolute;
+  padding: 90px;
+  background-color: red;
+  display: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../bg1.png");
+  /* background-image: url("../bg1.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub {
+  width: 35%;
+  padding: 40px 0px;
+  margin: auto;
+  background-color: rgba(2, 49, 49, 0.849);
+  border-radius: 14px;
+  border: 1px solid white;
+}
+
+.sub1 {
+  width: 47%;
+  padding: 50px 0px;
+  margin: auto;
+  background-color: rgba(212, 212, 212, 0.766);
+  display: none;
+  border-radius: 14px;
+  border: 1px solid white;
+}
+
+h1 {
+  margin: 0px 0px 3% 0px;
+  color: yellow;
+  font-weight: 900;
+}
+
+.fail-message {
+  margin-bottom: 10px;
+  padding: 6px 20px;
+  font-size: 20px;
+  background-color: rgba(5, 63, 63, 0.584);
+  border-radius: 11px;
+  visibility: hidden;
+  color: red;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  color: black;
+  background-color: rgb(198, 211, 249);
+  font-size: 20px;
+  padding: 11px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input {
+  width: 80%;
+  height: 42px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.span {
+  margin-right: 60%;
+  color: red;
+  padding: 5px;
+  margin-bottom: 10px;
+  text-wrap: nowrap;
+  font-weight: 900;
+  visibility: hidden;
+}
+
+#submit {
+  width: 95%;
+  height: 42px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: yellow;
+  font-weight: 800;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#changepassword {
+  width: 91%;
+  height: 40px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  background-color: yellow;
+  font-weight: 800;
+}
+
+#changepassword:hover {
+  cursor: pointer;
+}
+
+#change {
+  color: rgb(255, 0, 0);
+  font-weight: 900;
+}
+
+#change:hover {
+  cursor: pointer;
+}
+
+#login {
+  color: rgb(247, 2, 2);
+  font-weight: 900;
+}
+
+#login:hover {
+  cursor: pointer;
+}
+
+/* Fot tablet */
+@media (max-width: 990px) {
+  .sub {
+    width: 65%;
+    padding: 40px 0px;
+  }
+
+  .sub1 {
+    width: 65%;
+    padding: 40px 0px;
+  }
+
+  h1 {
+    margin: 0px 0px 2% 0px;
+    color: yellow;
+    font-weight: 900;
+  }
+
+  .fail-message {
+    margin-bottom: 8px;
+    padding: 5px 17px;
+    font-size: 16px;
+  }
+
+  form {
+    width: 82%;
+  }
+
+  .input-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  i {
+    font-size: 23px;
+  }
+
+  input {
+    width: 80%;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .span {
+    margin-right: 50%;
+  }
+
+  #submit {
+    width: 91%;
+    height: 38px;
+  }
+}
+
+/* For mobile */
+
+@media (max-width: 600px) {
+  .sub {
+    width: 90%;
+    padding: 30px 0px;
+  }
+
+  .sub1 {
+    width: 90%;
+    padding: 30px 0px;
+  }
+
+  h1 {
+    font-size: 29px;
+  }
+
+  .fail-message {
+    margin-bottom: 6px;
+    padding: 4px 17px;
+    font-size: 15px;
+  }
+
+  form {
+    width: 92%;
+  }
+
+  i {
+    font-size: 15px;
+  }
+
+  input {
+    width: 75%;
+    height: 37px;
+    font-size: 16px;
+  }
+
+  .span {
+    margin-right: 40%;
+    padding: 3px;
+    margin-bottom: 7px;
+  }
+
+  #submit {
+    width: 84%;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  #changepassword {
+    width: 84%;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .bottom_text {
+    font-size: 14px;
+  }
+}

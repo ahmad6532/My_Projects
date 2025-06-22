@@ -1,0 +1,413 @@
+.form-nav{
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #d6d6d6;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-btn-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.main-wrap-design{
+    background: #F3F3F3;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+}
+.form-sidebar-wrap{
+    width: 30%;
+    max-width: 310px;
+    min-height: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-inline: 1rem;
+    background: white;
+    border-right: 1px solid #d6d6d6;
+}
+
+
+.search-addon{
+    margin-right: -40px;
+    z-index: 3;
+}
+.search-input::placeholder{
+    color: #999 !important;
+    padding-left: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+.search-input:focus::placeholder {
+    padding-left: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.search-input:not(:placeholder-shown):not(:focus) {
+    padding-left: 40px;
+    transition: 0.2s ease-in-out;
+}
+.search-input{
+    border: 2px solid #D9D9D9;
+}
+.form-sidebar-btn{
+    width: 120px;
+    height: 100px;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #D5D5D5;
+    border-radius: 5px;
+    gap: 0.7rem;
+    background: #FAFAFA;
+    transition: 0.2s ease-in-out;
+}
+
+.form-sidebar-wrap .form-sidebar-btn:hover{
+    background: #6BC1B7;
+    transition: 0.2s ease-in-out;
+    color: white;
+    border-color: transparent;
+}
+.form-sidebar-wrap .form-sidebar-btn:hover svg path{
+    stroke: white !important;
+    transition: 0.2s ease-in-out;
+}
+
+.border-brand {
+    border-color: #6BC1B7 ;
+}
+.designer-container{
+    overflow-y: auto;
+    height: 90vh;
+    width: 100%;
+    margin-top: 70px;
+    margin-inline-start: 300px ;
+    margin-right: 20% ;
+}
+.designer-area{
+    width: 100%;
+    /* height: 100%; */
+    padding: 1rem;
+    /* min-height: 90vh; */
+}
+.drop-area{
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10rem !important;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+.drop-overlay{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    background: rgba(107, 193, 183,0.2);
+}
+
+
+/* Questions styling */
+.main-question-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+    border-radius: calc(0.5*8px);
+    box-sizing: border-box;
+    padding: calc(4*8px) calc(5*8px) calc(8*8px);
+    background:  #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.main-question-wrapper .drag-area{
+    position: absolute;
+    cursor: move;
+    top: 0;
+    left: 0;
+    height: calc(2.5*8px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4px;
+    opacity: 0.5;
+}
+.main-question-wrapper .drag-area svg{
+    transform: rotateZ(90deg);
+}
+.main-question-wrapper .input-area{
+    width: 100%;
+}
+.main-question-wrapper .input-area input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    padding: calc(1.5*8px) calc(2*8px);
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.91);
+    background-color:#f9f9f9;
+    border: none;
+    border-radius: 4px;
+    text-align: start;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15), 0 0 0 0px #19b394;
+    transition: box-shadow 150ms;
+}
+.main-question-wrapper .input-area h5{
+    color:#161616;
+    font-size: 16px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+.question-actions .light-btn{
+    background-color: transparent;
+}
+.question-actions{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: calc(1*8px);
+    inset-inline-start: calc(6*8px);
+    inset-inline-end: calc(3.5*8px);
+    font-size: 14px;
+}
+.question-actions .right-actions{
+    display: flex;
+    gap: 5px;
+}
+
+.question-actions .light-btn{
+    background-color: transparent;
+}
+.question-actions .light-btn .required-icon path{
+    fill: #6BC1B7;
+}
+.question-actions .light-btn:hover{
+    background: #f3f3f3;
+    color: #6BC1B7 !important;
+}
+.question-actions .light-btn:hover svg path{
+    stroke: #6BC1B7 !important;
+}
+
+.main-question-wrapper .drag-area, .main-question-wrapper .question-actions{
+    display: none;
+}
+.main-question-wrapper:hover .drag-area, .main-question-wrapper:hover .question-actions{
+    display: flex;
+}
+.main-question-wrapper{
+    border: 2px solid transparent;
+}
+.main-question-wrapper:not(.prev):hover{
+    border: 2px solid #6bc1b781;
+}
+.main-question-wrapper.prev input:focus{
+    outline: 1px solid #19b394 !important;
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0 0 0 2px #19b394;
+}
+.main-question-wrapper .desc{
+    color: rgba(22, 22, 22,0.5);
+}
+
+.overlay-border{
+    border: 2px solid #6bc1b77c;
+}
+.bg-brand{
+    background: #6BC1B7;
+}
+/* ================================ */
+.propertise-sidebar{
+    right: 0;
+    top: 73px;
+    height: 100%;
+    overflow-y: auto;
+    position: fixed;
+    padding-top: 0.5rem;
+    width: 20% ;
+    background: white;
+    border-left: 1px solid #d6d6d6;
+    padding-inline: 0.5rem;
+    transition: 0.5s ease-in-out;
+}
+
+.light-btn.custom-light-btn{
+    background: transparent !important;
+    padding: 0.3rem;
+    border-radius: 3px;
+}
+.light-btn.custom-light-btn:hover{
+    background: #F0F0F0 !important;
+}
+.light-btn.custom-light-btn:hover svg path{
+    stroke: #6BC1B7 !important;
+}
+.react-select-container{
+    border-color: #6BC1B7 !important;
+}
+
+.form-next-btn{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: calc(2*8px) calc(6*8px);
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Littera Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(1.5 * 16px);
+    text-align: center;
+    color: #19b394;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15), 0 0 0 0px #19b394;
+    transition: box-shadow 150ms, background 150ms;
+}
+.form-next-btn:hover{
+    background-color: #f8f8f8;
+}
+
+.tex{
+    resize: both;
+    --sjs-internal-font-editorfont-size: var(--sjs-mobile-font-editorfont-size, var(--sjs-font-editorfont-size, var(--sjs-font-size, 16px)));
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+    padding: calc(1.5*(var(--sjs-base-unit, var(--base-unit, 8px)))) calc(2*(var(--sjs-base-unit, var(--base-unit, 8px))));
+    line-height: calc(1.5 * (var(--sjs-internal-font-editorfont-size)));
+    font-family: var(--sjs-font-editorfont-family, var(--sjs-font-family, var(--font-family, var(--sjs-default-font-family))));
+    font-weight: var(--sjs-font-editorfont-weight, 400);
+    color: var(--sjs-font-editorfont-color, var(--sjs-general-forecolor, rgba(0, 0, 0, 0.91)));
+    font-size: var(--sjs-internal-font-editorfont-size);
+    background-color: var(--sjs-editorpanel-backcolor, var(--sjs-editor-background, var(--sjs-general-backcolor-dim-light, var(--background-dim-light, #f9f9f9))));
+    border: none;
+    border-radius: var(--sjs-editorpanel-cornerRadius, var(--sjs-corner-radius, 4px));
+    text-align: start;
+    box-shadow: var(--sjs-shadow-inner, inset 0px 1px 2px 0px rgba(0, 0, 0, 0.15)), 0 0 0 0px var(--sjs-primary-backcolor, var(--primary, #19b394));
+    transition: box-shadow var(--sjs-transition-duration, 150ms);
+}
+.main-question-wrapper.prev .tex:focus{
+    outline: 1px solid #19b394 !important;
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0 0 0 2px #19b394;
+}
+
+.form-page-wrapper{
+    min-height: 270px;
+    padding: 1rem;
+    padding-top: 2rem;
+    border-radius: 8px;
+    position: relative;
+}
+.form-page-wrapper:hover{
+    background: rgba(107, 193, 183, 0.1);
+}
+
+.custom-scroll-form::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: rgba(107, 193, 183, 0.9) !important;
+}
+
+.form-page-wrapper .page-actions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.form-page-wrapper:hover .page-actions{
+    display: flex;
+}
+.form-page-wrapper .page-actions .right-actions{
+    display: flex;
+    gap: 10px;
+}
+.form-page-wrapper .light-btn{
+    background-color: transparent;
+}
+.form-page-wrapper .light-btn .required-icon path{
+    fill: #6BC1B7;
+}
+.form-page-wrapper .light-btn:hover{
+    background: #f3f3f3;
+    color: #6BC1B7 !important;
+}
+.form-page-wrapper .light-btn:hover svg path{
+    stroke: #6BC1B7 !important;
+}
+.primary-btn:disabled:hover{
+    background: #a8d7d2 !important;
+    color: white !important;
+}
+
+.custom-input input{
+    padding: 0 !important;
+}
+
+.header-cell{
+    font-size: calc(1.5 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+    font-weight: normal;
+    color: var(--sjs-general-forecolor-light, var(--foreground-light, #909090));
+    line-height: calc(3 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+    background: var(--sjs-general-backcolor-dim, var(--background-dim, #f3f3f3));
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100px;
+    padding-left: var(--sjs-base-unit, var(--base-unit, 8px));
+}
+
+.form-control-label{
+    width: 100% !important;
+}
+
+.react-select-custom__menu-list::-webkit-scrollbar {
+    width: 5px !important;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .react-select-custom__menu-list::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: #6BC1B7;
+  }
+  
+  .react-select-custom__menu-list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #249b9120;
+    border-radius: 10px;
+  }
+
+  .react-select-custom__control:hover .react-select-custom__single-value{
+    color: #fff !important;
+  }
+  .react-select-custom__control:hover .react-select-custom__placeholder{
+    color: #fff !important;
+  }
+
+.tox-tinymce{
+    z-index: 0;
+}

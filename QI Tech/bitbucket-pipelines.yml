@@ -1,0 +1,64 @@
+options:
+    max-time: 30
+    size: 2x
+
+pipelines:
+    branches:
+        stable_master:
+            - step:
+                  runs-on:
+                      - self.hosted
+                      - linux.shell
+                      - live
+                      - qitech
+                  name: Build and Push on Live
+                  script:
+                      - echo "Running pipeline locally for QiTech"
+                      - rsync -avzxr --exclude=".git" ./ /var/www/qitech/
+                      - cd /var/www/qitech/
+                      - rm composer.lock || true
+                      - composer install --ignore-platform-reqs
+                      - php artisan migrate --no-interaction --force
+                      - php artisan optimize:clear
+                      - php artisan storage:link
+                      - npm install --force
+                      - npm run build
+                      - cp -rf .env.master .env
+        dev:
+            - step:
+                  runs-on:
+                      - self.hosted
+                      - linux.shell
+                      - dev
+                      - qitech
+                  name: Build and Push on Dev
+                  script:
+                      - echo "Running pipeline locally for QiTech"
+                      - cp -rf ./* /var/www/devqitech/
+                      - cd /var/www/devqitech/
+                      - rm composer.lock || true
+                      - composer install --ignore-platform-reqs
+                      - php artisan migrate --no-interaction --force
+                      - php artisan optimize:clear
+                      - npm install --force
+                      - npm run build
+                      
+        new:
+            - step:
+                  runs-on:
+                      - new
+                      - self.hosted
+                      - qitech
+                      - linux.shell
+                  name: Build and Push on new
+                  script:
+                      - echo "Running pipeline locally for QiTech"
+                      - cp -rf ./* /var/www/newqitech/
+                      - cd /var/www/newqitech/
+                    #   - cp -rf .env.new .env
+                      - rm composer.lock || true
+                      - composer install --ignore-platform-reqs
+                      - php artisan migrate --no-interaction --force
+                      - php artisan optimize:clear
+                      - npm install --force
+                      - npm run build
