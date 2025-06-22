@@ -112,7 +112,7 @@ To provide a flexible, form-based quality improvement and incident reporting sol
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/qitech.git
+git clone https://github.com/ahmad6532/My_Projects/tree/main/QI%20Tech
 cd qitech
 
 composer install
