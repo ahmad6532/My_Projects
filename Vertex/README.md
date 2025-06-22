@@ -141,7 +141,7 @@ To provide a unified, API-driven HRMS platform that:
 ### Backend Setup (Laravel)
 
 ```bash
-git clone https://github.com/yourusername/hrms-backend.git
+git clone https://github.com/ahmad6532/My_Projects/tree/main/Vertex
 cd hrms-backend
 
 composer install
