@@ -103,7 +103,7 @@ This Laravel project demonstrates a complete real-world system that includes:
 ## ⚙️ Installation Guide
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/ahmad6532/My_Projects/tree/main/Content%20Craft
 
 cd your-repo-name
 
