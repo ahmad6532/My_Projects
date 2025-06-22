@@ -97,7 +97,7 @@ This system is developed to demonstrate:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/orderlygo.git
+git clone https://github.com/ahmad6532/My_Projects/tree/main/Order%20Management%20System
 
 # Install dependencies
 composer install
