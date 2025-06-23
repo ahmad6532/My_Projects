@@ -12,6 +12,7 @@
 
 This Hostel Management System is developed using **Core PHP** and provides backend functionality for managing student accommodations, room assignments, leave requests, and dashboard views for both administrators and students. It is suitable for use in university or institutional hostel setups.
 
+<img src="[https://img.shields.io/badge/Language-PHP-blue?style=for-the-badge&logo=php](https://github.com/ahmad6532/My_Projects/blob/main/Hostel%20Management/SS.png)" />
 
 ---
 
