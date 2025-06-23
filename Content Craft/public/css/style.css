@@ -1,403 +1,398 @@
 /* Login Style */
 .auth-body {
-    padding: 0;
-    color: white;
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: url("/images/Group 42778@2x.PNG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  padding: 0;
+  color: white;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("SS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .auth-inner-div {
-    opacity: 1;
-    backdrop-filter: blur(17px);
-    -webkit-backdrop-filter: blur(17px);
+  opacity: 1;
+
+  backdrop-filter: blur(555px);
+  -webkit-backdrop-filter: blur(555px);
+  background-color: rgba(255, 255, 255, 0.048);
 }
 .bg-logo {
-    width: 276px;
-    height: 300px;
+  width: 276px;
+  height: 300px;
 }
 .auth-heading {
-    font-size: 24px;
+  font-size: 24px;
 }
 .auth-detail {
-    font-size: 16px;
+  font-size: 16px;
 }
 .form-outline {
-    position: relative;
+  position: relative;
 }
 .auth-form {
-    height: 42px !important;
-    padding-left: 39px !important;
-    position: relative;
+  height: 42px !important;
+  padding-left: 39px !important;
+  position: relative;
 }
 .form-outline i {
-    position: absolute;
-    transform: translateY(-166%);
-    margin-left: 9px;
-    font-size: 18px;
-    color: #4d4a4a;
+  position: absolute;
+  transform: translateY(-166%);
+  margin-left: 9px;
+  font-size: 18px;
+  color: #4d4a4a;
 }
 .auth-form:active {
-    border: 2px solid #88ca01 !important;
+  border: 2px solid #88ca01 !important;
 }
 .form-label {
-    margin-bottom: -2px !important;
+  margin-bottom: -2px !important;
 }
 .auth-submit-btn {
-    font-size: 16px !important;
-    height: 48px;
-    margin-top: 25px !important;
+  font-size: 16px !important;
+  height: 48px;
+  margin-top: 25px !important;
 }
 
 /* SignUp Style */
 .logo-div {
-    width: 33%;
+  width: 33%;
 }
 .signup-form-div {
-    width: 67%;
+  width: 67%;
 }
 .signup-heading-div {
-    width: 98%;
-    margin: 40px auto 0px auto;
+  width: 98%;
+  margin: 40px auto 0px auto;
 }
 .signup-inner-div {
-    width: 91%;
-    margin: auto;
+  width: 91%;
+  margin: auto;
 }
 .signup-sub-div {
-    width: 92%;
-    margin: auto;
+  width: 92%;
+  margin: auto;
 }
 .signup-input-div {
-    width: 95%;
-    margin: auto;
+  width: 95%;
+  margin: auto;
 }
 .single-input-div {
-    width: 97%;
-    margin: auto;
+  width: 97%;
+  margin: auto;
 }
 .single-input {
-    padding-left: 8px !important;
+  padding-left: 8px !important;
 }
 .signup-input-img-div {
-    position: relative;
+  position: relative;
 }
 .phone-input {
-    padding-left: 130px !important;
+  padding-left: 130px !important;
 }
 .country-code {
-    width: 107px !important;
-    padding-left: 2px !important;
-    margin-top: -42px !important;
-    border-right: none !important;
+  width: 107px !important;
+  padding-left: 2px !important;
+  margin-top: -42px !important;
+  border-right: none !important;
 }
 .gender {
-    width: 48% !important;
+  width: 48% !important;
 }
 .signup-input-img-div input {
-    height: 69px;
-    width: 70px;
-    cursor: pointer !important;
-    opacity: 0;
+  height: 69px;
+  width: 70px;
+  cursor: pointer !important;
+  opacity: 0;
 }
 .signup-input-img-div img {
-    height: 70px;
-    width: 70px;
-    cursor: pointer;
-    position: absolute;
-    z-index: -10;
-    margin-top: 18px;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+  position: absolute;
+  z-index: -10;
+  margin-top: 18px;
 }
 #completeProfileBtn {
-    height: 38px;
-    width: 47%;
-    margin-right: 10px;
+  height: 38px;
+  width: 47%;
+  margin-right: 10px;
 }
-#updateProfileBtn{
-   height: 38px;
-    width: 47%;
-    margin-right: 10px;   
+#updateProfileBtn {
+  height: 38px;
+  width: 47%;
+  margin-right: 10px;
 }
 #userImage {
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 /* To remove dropdown button in number type input field */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none !important;
-    margin: 0 !important;
+  -webkit-appearance: none !important;
+  margin: 0 !important;
 }
 
 /* Style for Parsley error messages */
 .parsley-errors-list {
-    list-style-type: none;
-    padding: 0;
-    color: #ff0000;
-    font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+  color: #ff0000;
+  font-size: 14px;
 }
 
 /* Style for Parsley error messages within a specific field */
 .parsley-error {
-    border-color: #ff0000;
+  border-color: #ff0000;
 }
 
 /* Style for Parsley success messages (optional) */
 .parsley-success {
-    color: #038403;
-    border-color: #038403;
+  color: #038403;
+  border-color: #038403;
 }
 
 /* Action Buttons Style */
 
 .action-btns {
-    cursor: pointer;
-    margin: 4px;
+  cursor: pointer;
+  margin: 4px;
 }
-.del-btn{
-    color: red;
+.del-btn {
+  color: red;
 }
-.view-btn{
-    color: green;
+.view-btn {
+  color: green;
 }
-
 
 /* Modal to show Data */
-.view-modal{
-    background-color: rgba(0,0,0, 0.6);
-    display: none;
-    justify-content: center;
-    align-items: center;
+.view-modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
 }
-.modal-inner-div{
-    background-color: rgba(255, 255, 255);
-    width: 80% !important;
-    margin: auto;
-    border-radius: 3px;
-    padding-top: 17px;
+.modal-inner-div {
+  background-color: rgba(255, 255, 255);
+  width: 80% !important;
+  margin: auto;
+  border-radius: 3px;
+  padding-top: 17px;
 }
-.profile-img{
-    text-align: center;
+.profile-img {
+  text-align: center;
 }
-.profile-img img{
-    width: 70%;
-    height: 100%;
-    border-radius: 10px;
+.profile-img img {
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
 }
 .profile-img .file {
-    position: relative;
-    overflow: hidden;
-    margin-top: -20%;
-    width: 70%;
-    border: none;
-    border-radius: 0;
-    font-size: 15px;
-    background: #212529b8;
+  position: relative;
+  overflow: hidden;
+  margin-top: -20%;
+  width: 70%;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #212529b8;
 }
-.profile-head h4{
-    color: #333;
-    margin: 10% 0px 10% 0px;
-}
-
-.profile-edit-btn{
-    border-radius: 4px;
-    padding: 10px;
-    color: white;
-    font-weight: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: green;
-
-}
-.profile-edit-btn:hover{
-    border: 2px solid green;
-    color: green;
-    background-color: transparent;
-}
-.profile-head .nav-tabs{
-    margin-bottom:5%;
-}
-.profile-head .nav-tabs .nav-link{
-    font-weight:600;
-    border: none;
-}
-.profile-head .nav-tabs .nav-link.active{
-    border: none;
-    border-bottom:2px solid #0062cc;
+.profile-head h4 {
+  color: #333;
+  margin: 10% 0px 10% 0px;
 }
 
-.profile-tab label{
-    font-weight: 600;
+.profile-edit-btn {
+  border-radius: 4px;
+  padding: 10px;
+  color: white;
+  font-weight: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: green;
 }
-.profile-tab p{
-    font-weight: 600;
-    color: #0062cc;
+.profile-edit-btn:hover {
+  border: 2px solid green;
+  color: green;
+  background-color: transparent;
 }
-.detail-div{
-    width: 30%;
-    margin: auto;
+.profile-head .nav-tabs {
+  margin-bottom: 5%;
 }
-#closeModal{
-    margin-right: 67px !important;
+.profile-head .nav-tabs .nav-link {
+  font-weight: 600;
+  border: none;
 }
-#confirmDeleteBtn{
-   background-color: red;
-   color: white;
+.profile-head .nav-tabs .nav-link.active {
+  border: none;
+  border-bottom: 2px solid #0062cc;
 }
-#addArticleBtn{
-    background-color: green;
-    color: white;
+
+.profile-tab label {
+  font-weight: 600;
 }
-#editArticleBtn{
-     background-color: green;
-    color: white;
+.profile-tab p {
+  font-weight: 600;
+  color: #0062cc;
+}
+.detail-div {
+  width: 30%;
+  margin: auto;
+}
+#closeModal {
+  margin-right: 67px !important;
+}
+#confirmDeleteBtn {
+  background-color: red;
+  color: white;
+}
+#addArticleBtn {
+  background-color: green;
+  color: white;
+}
+#editArticleBtn {
+  background-color: green;
+  color: white;
 }
 /* Article View style */
-.article-view{
-    width: 50% !important;
+.article-view {
+  width: 50% !important;
 }
-.article-view .modal-content{
-    display: flex;
-    align-items: center;
-    padding: 11px;
+.article-view .modal-content {
+  display: flex;
+  align-items: center;
+  padding: 11px;
 }
 /* Logout div on navbar */
-.logout-div{
-    margin-right: 31px;
-    display: flex;
-    cursor: pointer;
-    position: relative;
+.logout-div {
+  margin-right: 31px;
+  display: flex;
+  cursor: pointer;
+  position: relative;
 }
-.logout-div .fa-caret-down{
-    margin: 5px 5px 5px 15px;
+.logout-div .fa-caret-down {
+  margin: 5px 5px 5px 15px;
 }
-#logout-dropdown{
-    display: none;
-    width: 15%;
-    flex-direction: column;
-    position: absolute;
-    gap:0px;
-    align-items: center;
-    justify-content: center;
-    background-color:#fff !important;
-    border-radius: 4px;
+#logout-dropdown {
+  display: none;
+  width: 15%;
+  flex-direction: column;
+  position: absolute;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff !important;
+  border-radius: 4px;
 }
-.logout-div span{
-    font-weight: 500;
+.logout-div span {
+  font-weight: 500;
 }
-#logout-dropdown span{
-    border: 1px solid lightgray;
-    border-radius: 2px;
-    font-weight: 500;
+#logout-dropdown span {
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  font-weight: 500;
 }
-#logout-dropdown span form button{
-    font-weight: 500;
-} 
-#logout-dropdown span:hover{
-   background-color: lightgrey;
-   cursor: pointer;
-} 
-
+#logout-dropdown span form button {
+  font-weight: 500;
+}
+#logout-dropdown span:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
 
 /* Plan Styles */
-.plan-heading{
-font-weight: 700;
-font-size: 23px;
+.plan-heading {
+  font-weight: 700;
+  font-size: 23px;
 }
-.utilized-btn{
-    background-color: rgb(187, 186, 186) !important;
-    color: rgb(12, 8, 59);
-    font-weight: 600;
+.utilized-btn {
+  background-color: rgb(187, 186, 186) !important;
+  color: rgb(12, 8, 59);
+  font-weight: 600;
 }
-.utilized-btn:hover{
-   background-color: rgb(187, 186, 186);
-   cursor:default !important;
+.utilized-btn:hover {
+  background-color: rgb(187, 186, 186);
+  cursor: default !important;
 }
 /* Article top head buttons */
-.article-head-btn{
-    margin: 4px 0px;
-    margin-right: 10px !important;
-    cursor: pointer;
-    padding: 7px;
-    width: 10%;
-    text-align: center;
-    border-radius: 5px;
-    color: rgb(253, 253, 253);
-    background-color: #adadad;
-    border: 1px solid;
-
+.article-head-btn {
+  margin: 4px 0px;
+  margin-right: 10px !important;
+  cursor: pointer;
+  padding: 7px;
+  width: 10%;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(253, 253, 253);
+  background-color: #adadad;
+  border: 1px solid;
 }
-.article-head-btn:hover{
-    color: black;
-    background-color: transparent;
-    border: 1px solid;
+.article-head-btn:hover {
+  color: black;
+  background-color: transparent;
+  border: 1px solid;
 }
 
 /* Payment Receipt */
-.receipt{
-    border: 1px dotted black !important;
-    width: 100%;
-    background-color: rgb(229, 253, 229);
-    padding: 20px;
-    margin: 20px;
+.receipt {
+  border: 1px dotted black !important;
+  width: 100%;
+  background-color: rgb(229, 253, 229);
+  padding: 20px;
+  margin: 20px;
 }
-
-
 
 /* Block Unblock manager */
-#unBlockBtn{
-    color: red !important;
-    cursor: pointer;
+#unBlockBtn {
+  color: red !important;
+  cursor: pointer;
 }
-#blockBtn{
-    color: green !important;
-    cursor: pointer;
+#blockBtn {
+  color: green !important;
+  cursor: pointer;
 }
 
-.like-btn-style{
-    color: #acaaaa !important;
+.like-btn-style {
+  color: #acaaaa !important;
 }
 
 /* Admin Dashboard style */
-.counter-card{
-    border-radius: 3px;
-    margin-top: 11px !important;
-    background-color: hsl(201, 31%, 41%) !important;
+.counter-card {
+  border-radius: 3px;
+  margin-top: 11px !important;
+  background-color: hsl(201, 31%, 41%) !important;
 }
-.icon-control{
-    font-size: 30px !important;
-    margin-bottom: 14px;
+.icon-control {
+  font-size: 30px !important;
+  margin-bottom: 14px;
 }
-.counter{
-    padding: 5px;
-    font-weight: 700;
+.counter {
+  padding: 5px;
+  font-weight: 700;
 }
 /* chart dropdown style */
-.chart-dropdown{
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: end;
+.chart-dropdown {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: end;
 }
-.chart-dropdown select{
-    width: 130px;
-    height: 30px;
-    cursor: pointer;
-    border: 2px solid #9c9a9a;
-    border-radius: 4px;
-
+.chart-dropdown select {
+  width: 130px;
+  height: 30px;
+  cursor: pointer;
+  border: 2px solid #9c9a9a;
+  border-radius: 4px;
 }
-#chart-container{
-    position: absolute;
-    z-index: 0;
-    width: 95%;
+#chart-container {
+  position: absolute;
+  z-index: 0;
+  width: 95%;
 }
 
 /* Payment page style */
-.hide{
-   display: none;
+.hide {
+  display: none;
 }

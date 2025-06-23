@@ -4,6 +4,10 @@
 
 It allows head offices to manage multiple branches (locations), create teams, publish industry-specific forms, and track the full lifecycle of public-reported cases—from submission to resolution—through a centralized dashboard.
 
+
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/QI%20Tech/SS.png" />
+
+
 ---
 
 ## 🎯 Project Purpose
@@ -112,7 +116,7 @@ To provide a flexible, form-based quality improvement and incident reporting sol
 ### Installation
 
 ```bash
-git clone https://github.com/ahmad6532/My_Projects/tree/main/QI%20Tech
+git clone https://github.com/ahmad6532/My_Projects.git
 cd qitech
 
 composer install

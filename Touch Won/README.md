@@ -2,6 +2,10 @@
 
 **Touchwon** is a Laravel-based web application designed to manage a mobile sweepstakes and gaming platform. This system allows vendors to add and manage players, allocate credits, run promotional sweepstakes, and track all player activities securely. The platform emphasizes both **profitability for vendors** and **trust for players**.
 
+
+
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/Touch%20Won/public/SS.png" />
+
 ---
 
 ## 🎯 Purpose
@@ -105,7 +109,7 @@ resources/views/
 ### Installation Steps
 
 ```bash
-git clone https://github.com/ahmad6532/My_Projects/tree/main/Touch%20Won
+git clone https://github.com/ahmad6532/My_Projects.git
 cd touchwon
 
 composer install

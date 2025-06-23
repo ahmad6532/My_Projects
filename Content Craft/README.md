@@ -1,16 +1,20 @@
-<h1 align="center">✨ Content Craft</h1>
+<h1 align="center">📕 Content Craft</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Laravel-10.x-F72C1F?style=for-the-badge&logo=laravel&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-8.1-8892BF?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Stripe-Integrated-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
   <img src="https://img.shields.io/badge/AdminLTE-Dashboard-3C8DBC?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/Role_&_Permission-Spatie-FF69B4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Role_&_Permission-Spatie-FF69B4?style=for-the-badge" />
 
 </p>
 
 <p align="center">
    <strong>This is my practice project. A modular Laravel SaaS application with role-based dashboards and Subscription Plan. User can post his/her articles by subscribe a plan. There is the limit of articles to post, then need to upgrad plan.</strong>
+
+
+   <img src="https://github.com/ahmad6532/My_Projects/blob/main/Content%20Craft/public/SSS.png" />
+
 </p>
 
 <hr>
@@ -103,7 +107,7 @@ This Laravel project demonstrates a complete real-world system that includes:
 ## ⚙️ Installation Guide
 
 ```bash
-git clone https://github.com/ahmad6532/My_Projects/tree/main/Content%20Craft
+git clone https://github.com/ahmad6532/My_Projects.git
 
 cd your-repo-name
 

@@ -4,6 +4,12 @@ The **Motul Dashboard** is a Laravel-powered web application built to track, ana
 
 Motul, a global leader in automotive lubricants and technology, benefits from this system to improve the distribution and effectiveness of its digital training resources.
 
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/Motul/dashboard.png" />
+
+---
+
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/Motul/table.png" />
+
 ---
 
 ## 🎯 Purpose
@@ -114,22 +120,6 @@ To empower Motul’s internal stakeholders with a dynamic dashboard for:
 - MySQL
 
 ### Installation
-
-```bash
-# Clone repository
-git clone https://github.com/yourusername/motul-dashboard.git
-cd motul
-
-# Install PHP dependencies
-composer install
-
-php artisan key:generate
-
-php artisan migrate --seed
-
-# Start local server
-php artisan serve
-```
 
 ---
 

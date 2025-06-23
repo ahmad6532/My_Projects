@@ -4,6 +4,15 @@
 
 Designed for versatility and scalability, HRMS empowers organizations to efficiently manage their entire workforce and infrastructure across **multiple branches and companies**.
 
+
+
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/Vertex/public/SS.png" />
+---
+
+
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/Vertex/public/SSS.png" />
+
+
 ---
 
 ## 🎯 Purpose
@@ -141,8 +150,9 @@ To provide a unified, API-driven HRMS platform that:
 ### Backend Setup (Laravel)
 
 ```bash
-git clone https://github.com/ahmad6532/My_Projects/tree/main/Vertex
-cd hrms-backend
+git clone https://github.com/ahmad6532/My_Projects.git
+
+cd Vertex
 
 composer install
 
