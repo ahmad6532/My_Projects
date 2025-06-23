@@ -2,6 +2,9 @@
 
 Welcome to my project showcase — a collection of **real-world applications** I've developed using **Laravel**, **PHP**, **Ajax**, **React**, **Livewire**, **jQuery**, **SQL**, and **modern software architecture** practices. Each project tackles a unique problem and is built with a focus on **performance**, **security**, and **scalability**.
 
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/M%20Ahmad.jpeg" />
+
+
 ---
 
 ## 💡 Highlights
@@ -32,13 +35,35 @@ Welcome to my project showcase — a collection of **real-world applications** I
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Skills & Expertise
 
-- **Languages:** PHP, JavaScript, CSS, SQL
-- **Frameworks:** Laravel, React, Bootstrap
-- **APIs:** OpenAI, Stripe, ZKTeco SDK, Google Map
-- **Tools:** MySQL, Git, GitHub/Bitbucket, Composer, NPM, Postman
-- **Security:** Role-based Access, Token Auth, OTP login
+### 💻 Languages & Programming Concepts
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Principles-8A2BE2?style=for-the-badge)
+
+### 🧰 Frameworks & Libraries
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Livewire](https://img.shields.io/badge/Livewire-4E1A85?style=for-the-badge&logo=laravel&logoColor=white)
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+![AJAX](https://img.shields.io/badge/AJAX-007FFF?style=for-the-badge&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### 🛠 Tools & Platforms
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### 🧩 APIs & Services
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![ZKTeco](https://img.shields.io/badge/ZKTeco-7FB800?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -57,9 +82,18 @@ I’m actively looking for freelance or full-time opportunities!
 
 - 🌐 [Portfolio Website](https://ahmad6532.github.io/portfolio/)
 - 📧 Email: [iahmad8473@gmail.com](mailto:iahmad8473@gmail.com)
-- 💼 LinkedIn: [www.linkedin.com/in/muhammad-ahmad-a077042a7](www.linkedin.com/in/muhammad-ahmad-a077042a7)
+- 💼 LinkedIn: www.linkedin.com/in/muhammad-ahmad-a077042a7
 
 ---
+## 🤝 Why Hire Me?
 
+- I don’t just code — I understand product goals.
+- I deliver clean, scalable solutions ready for production.
+- I write secure, testable APIs and intuitive UIs.
+- I’m comfortable working solo or collaborating with teams.
+- I can transform your idea into a working MVP within weeks.
+
+
+---
 > 🔥 *“Software is a tool. I build to solve problems, not just to code.”*  
 > — Muhammad Ahmad
