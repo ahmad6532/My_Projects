@@ -109,7 +109,7 @@ This Laravel project demonstrates a complete real-world system that includes:
 ```bash
 git clone https://github.com/ahmad6532/My_Projects.git
 
-cd your-repo-name
+cd content craft
 
 composer install
 
