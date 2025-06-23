@@ -5,7 +5,7 @@
 It allows head offices to manage multiple branches (locations), create teams, publish industry-specific forms, and track the full lifecycle of public-reported cases—from submission to resolution—through a centralized dashboard.
 
 
-<img src="https://github.com/ahmad6532/My_Projects/blob/main/QI%20Tech/SS.png" />
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/QI%20Tech/public/SS.png" />
 
 
 ---
