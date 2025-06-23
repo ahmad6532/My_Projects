@@ -12,8 +12,8 @@
 <p align="center">
    <strong>This is my practice project. A modular Laravel SaaS application with role-based dashboards and Subscription Plan. User can post his/her articles by subscribe a plan. There is the limit of articles to post, then need to upgrad plan.</strong>
 
-
-   <img src="https://github.com/ahmad6532/My_Projects/blob/main/Content%20Craft/public/SSS.png" />
+<p>&nbsp;</p>
+<img src="https://github.com/ahmad6532/My_Projects/blob/main/Content%20Craft/public/SSS.png" />
 
 </p>
 
